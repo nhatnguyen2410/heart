@@ -1,5 +1,4 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-
 <html>
   <head>
     <title>New Document</title>
@@ -35,11 +34,9 @@
       }
 
       .name_Ban {
-        
-        opacity: 0; 
+        opacity: 0;
       }
       .heart {
-    
         width: 400px;
         height: 400px;
         display: inline !important;
@@ -62,7 +59,32 @@
         font-style: italic;
         opacity: 1;
         transition: opacity 5s;
-
+      }
+      @media screen and (max-width: 1000px) {
+        .heart {
+        width: 400px;
+        height: 400px;
+        display: inline !important;
+        font-size: 70px;
+        position: absolute;
+        color: aquamarine;
+        left: 30%;
+        top: 40%;
+      }
+        .heart:hover .name_Ban {
+        display: block !important;
+        font-size: 50px;
+        position: absolute;
+        color: aquamarine;
+        left: 17%;
+        top: 39%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-style: italic;
+        opacity: 1;
+        transition: opacity 5s;
+      }
       }
       @media screen and (max-width: 1000px) {
         .heart {
